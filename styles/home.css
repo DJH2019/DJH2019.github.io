@@ -1,0 +1,98 @@
+html {
+    font-family: 'Roboto';
+    font-size: 85%;
+    background-image: url("../assets/bg.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    align-content: center;
+    text-align: center;
+    color: whitesmoke;
+    background-image: url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover{
+    text-decoration: none;
+}
+#body_title{
+    padding-top: 2%;
+    font-size: 50px;
+}
+#body_coin-row{
+    padding-top: 5%;
+    display: inline-block;
+    font-size: 20px;
+}
+#body_coin-row h3{
+    font-size: 40px;
+}
+.body_coin-summary{
+    text-align: center;
+    border-width: 3px;
+    border-color: #5BC0BE;
+    display: inline-block;
+    padding: 50px;
+    border-style: solid;
+    border-radius: 50%;
+    margin: 20px;
+    width: 240px;
+    height: 240px;
+    background-color: rgba(255,255,255,0.1);
+
+}
+.body_coin-summary:hover{
+    border-color: white;
+    cursor: pointer;
+}
+#body_button_start-trading{
+    margin-top: 2.4%;
+    padding: 15px 30px;
+    align-content: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+    border: none;
+    opacity: 0.9;
+    background-color: #5BC0BE;
+}
+
+#body_button_start-trading:hover {
+    opacity: 1;
+    background-color: #6FFFE9;
+    color: #3A506B;
+    cursor: pointer;
+}
+
+.typewriter h3 {
+    color: #ffffff;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+            typing 10s steps(40, end),
+            blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange;
+    }
+}

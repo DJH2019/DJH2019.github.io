@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset="utf-8">
+        <title> Home </title>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="Stylesheet" href="styles/home.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="styles/topNav.css"/>
+ 
+    </head>
+    <header>
+        <ul id="body_list">
+            <li id="body_homepage" class="topNav"><a href="home.html">Tekhart Trading</a></li>
+            <li><a class="body_topNav" href="create_account.html">Register</a></li>
+            <li><a class="body_topNav" href="login.html">Login</a></li>
+            <li><a class="body_topNav" href="faq.html">FAQ</a></li>
+            <li><a class="body_topNav" href="market.html">Market</a></li>
+        </ul>
+    </header>
+    <body>
+        <h1 id="body_title">Tekhart Trading!</h1>
+        <div id=body_coin-row>
+            <div class="body_coin-summary"  onclick="goToBTC()">
+                <h3>BTC</h3>
+                <p>$00.00</p>
+                <p>+0%</p>
+            </div>
+            <div class="body_coin-summary"  onclick="goToETH()" >
+                <h3>ETH</h3>
+                <p>$00.00</p>
+                <p>+0%</p>
+            </div>
+            <div class="body_coin-summary"  onclick="goToMIOTA()">
+                <h3>MIOTA</h3>
+                <p>$00.00</p>
+                <p>+0%</p>
+            </div>
+        </div>
+        <button id ="body_button_start-trading" type="button" onclick="goToMarket()">Start Trading</button>
+        <script src='scripts/home.js'></script>
+    </body>
+</html>
