@@ -1,25 +1,10 @@
-# TekHart Trader
-### A Cryptocurrency trading and market analysis website.
+## Calm App
 
-### Pages:
+A calming breathing app with a visual director to tell you when to breathe in, hold and breathe out
 
-#### Home Screen 
-<img width="1439" alt="HomeScreen" src="TODO add PNG Files">
+## Project Specifications
 
-#### Detailed Market Analysis
-<img width="1436" alt="Graph1" src="TODO add PNG Files">
-
-#### Market Page with Live Updates
-<img width="1440" alt="Market" src="TODO add PNG Files">
-
-#### Create an Account
-<img width="1440" alt="Sign Up" src="TODO add PNG Files">
-
-### Features:
-
-#### Interactive Graphs:
-![Graph](TODO add PNG Files)
-
-#### Fill in the fields to become a new user of Tekhart Trader!
-![Account Login](TODO add PNG Files)
-
+- Create circle and gradient circle with CSS
+- Create and animate pointer (Small circle)
+- Create grow and shrink animations
+- Add JavaScript to create the breath animation effect
